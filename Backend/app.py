@@ -28,7 +28,7 @@ def system_info():
         'cpu_usage': psutil.cpu_percent(interval=1),
         'ram_usage': psutil.virtual_memory().percent,
         'battery_status': psutil.sensors_battery().percent if psutil.sensors_battery() else 'No battery',
-        'cpu_temperature': psutil.sensors_temperatures().get('coretemp', [{}])[0].get('current', 'N/A'),
+        # 'cpu_temperature': psutil.sensors_temperatures().get('coretemp', [{}])[0].get('current', 'N/A'),
         'python_version': platform.python_version(),
         'location': requests.get('https://ipinfo.io').json().get('city', 'Unknown'),
         'current_time': datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
