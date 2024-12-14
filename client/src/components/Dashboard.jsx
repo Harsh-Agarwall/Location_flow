@@ -11,7 +11,7 @@ const Dashboard = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get("http://localhost:5000/system_info");
+                const response = await axios.get("https://systemresources-dashboard.onrender.com/system_info");
                 setSystemInfo(response.data);
             } catch (error) {
                 console.error("Error fetching system info:", error);
