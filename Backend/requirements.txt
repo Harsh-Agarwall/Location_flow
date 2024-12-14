@@ -1,0 +1,4 @@
+flask
+uvicorn
+psutil
+requests
