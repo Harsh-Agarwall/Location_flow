@@ -112,25 +112,7 @@ Returns system information in JSON format.
 - Add system disk usage metrics.
 - Improve GPU monitoring to support multiple GPUs.
 - Dockerize the application for easy deployment.
-- Deploy the project to a cloud platform.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
-
----
-
-## Contact
-
-For any queries, reach out to **Harsh Agarwal** at [email@example.com](mailto:email@example.com).
+- Deploy the project to a cloud platform
 
 
 
